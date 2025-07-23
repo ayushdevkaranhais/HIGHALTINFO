@@ -1,23 +1,33 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      forecast: []
+    };
+  },
+  mounted() {
+    fetch('http://localhost:5036/weatherforecast') // updated port!
+      .then(response => response.json())
+      .then(data => {
+        this.forecast = data;
+        console.log("Weather Forecast:", data);
+      })
+      .catch(error => {
+        console.error("API fetch error:", error);
+      });
+  }
+};
 </script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <div>
+    <h1>Weather Forecast</h1>
+    <ul>
+      <li v-for="item in forecast" :key="item.date">
+        {{ item.date }} - {{ item.temperatureC }}°C - {{ item.summary }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
