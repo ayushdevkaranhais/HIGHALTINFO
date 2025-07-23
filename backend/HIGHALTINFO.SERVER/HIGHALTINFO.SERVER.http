@@ -1,0 +1,6 @@
+@HIGHALTINFO.SERVER_HostAddress = http://localhost:5036
+
+GET {{HIGHALTINFO.SERVER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
