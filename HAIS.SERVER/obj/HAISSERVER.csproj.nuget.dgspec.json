@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAIS.SERVER\\HAIS.SERVER\\HAIS.SERVER.csproj": {}
+    "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAISSERVER\\HAISSERVER.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAIS.SERVER\\HAIS.SERVER\\HAIS.SERVER.csproj": {
+    "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAISSERVER\\HAISSERVER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAIS.SERVER\\HAIS.SERVER\\HAIS.SERVER.csproj",
-        "projectName": "HAIS.SERVER",
-        "projectPath": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAIS.SERVER\\HAIS.SERVER\\HAIS.SERVER.csproj",
+        "projectUniqueName": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAISSERVER\\HAISSERVER.csproj",
+        "projectName": "HAISSERVER",
+        "projectPath": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAISSERVER\\HAISSERVER.csproj",
         "packagesPath": "C:\\Users\\AyushDevkaran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAIS.SERVER\\HAIS.SERVER\\obj\\",
+        "outputPath": "C:\\Users\\AyushDevkaran\\HIGHALTINFO\\HAISSERVER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.1\\Components\\Offline Packages",
