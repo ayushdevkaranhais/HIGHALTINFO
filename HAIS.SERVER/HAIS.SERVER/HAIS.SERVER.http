@@ -1,0 +1,6 @@
+@HAIS.SERVER_HostAddress = http://localhost:5111
+
+GET {{HAIS.SERVER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
