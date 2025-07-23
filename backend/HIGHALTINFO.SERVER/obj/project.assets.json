@@ -33,6 +33,22 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Net.Http.Json/9.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
       }
     }
   },
@@ -67,11 +83,40 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "System.Net.Http.Json/9.0.7": {
+      "sha512": "6iEg+UUQYdEhptcYojluXo1vo+cFjsKEry/uhv+X3xUY6enDF0aTKeOaqTStYM5M8Tl4CqCz8+vQFqaJfQskuQ==",
+      "type": "package",
+      "path": "system.net.http.json/9.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net8.0/System.Net.Http.Json.dll",
+        "lib/net8.0/System.Net.Http.Json.xml",
+        "lib/net9.0/System.Net.Http.Json.dll",
+        "lib/net9.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.9.0.7.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.7"
+      "Microsoft.AspNetCore.OpenApi >= 9.0.7",
+      "System.Net.Http.Json >= 9.0.7"
     ]
   },
   "packageFolders": {
@@ -129,6 +174,10 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[9.0.7, )"
+          },
+          "System.Net.Http.Json": {
             "target": "Package",
             "version": "[9.0.7, )"
           }

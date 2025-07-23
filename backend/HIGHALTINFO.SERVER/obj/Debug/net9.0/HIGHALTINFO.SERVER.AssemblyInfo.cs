@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HIGHALTINFO.SERVER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a95cbdeea1a12a3691147eaa9a298edd20584a0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d963c10aa685e5d36d8fdeaf6bc13e95b79fff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("HIGHALTINFO.SERVER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HIGHALTINFO.SERVER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
